@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[163]:
-
 
 import pandas as pd
 
@@ -195,9 +190,6 @@ x_train.shape, x_test.shape
 
 
 from sklearn.preprocessing import StandardScaler
-
-
-# In[194]:
 
 
 scaler= StandardScaler()
