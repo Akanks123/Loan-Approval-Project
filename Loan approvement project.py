@@ -273,23 +273,7 @@ print(f"Test Accuracy: {test_accuracy}")
 # In[225]:
 
 
-import pandas as pd
-pred_data= pd.DataFrame([['0','1' , '1' ,'1' ,'0','3000','1508.0','133.0','360.0','1.0','0']],columns=['Gender', 'Married','Dependents','Education','Self_Employed','ApplicantIncome','CoapplicantIncome','LoanAmount','Loan_Amount_Term','Credit_History', 'Property_Area'])
 
-
-# In[226]:
-
-
-pred_data= scaler.transform(pred_data)
-
-
-# In[227]:
-
-
-model.predict(pred_data)
-
-
-# In[ ]:
 
 
 
